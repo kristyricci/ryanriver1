@@ -1,0 +1,196 @@
+/******BASE STYLES****/
+body{
+  font-family:'Open Sans', sans-serif;
+  color: #313131;
+}
+/****GRID*****/
+.full-width{
+  width:1200px;
+  margin: 0 auto;
+}
+.third-width{
+  width: 300px;
+  float: left;
+}
+.left{
+  padding: 0 50px 0 45px;
+}
+.middle{
+  padding: 0 50px 0 50px;
+}
+.right{
+  padding: 0 50px 0 45px;
+}
+/*****HEADER*****/
+header{
+  height: 800px;
+}
+h1 img{
+  display: inline-block;
+  padding: 80px 30px 0px 0px;
+}
+h1{
+  font-family:'Libre Baskerville', sans-serif;
+  font-size: 64px;
+  clear: both;
+  padding: 70px 30px 10px 101px;
+  margin-block-start: 16px;
+  margin-block-end: 16px
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h1 span{
+  color:#ff654a
+}
+h2{
+  font-family:'Open Sans', sans-serif;
+  font-size: 48px;
+  clear: both;
+  padding: 50px 30px 40px 101px;
+  margin-block-start: 16px;
+  margin-block-end: 16px
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #313131;
+  font-weight: lighter;
+}
+nav{
+  float: right;
+  padding: 51px 23px 50px 635px;
+}
+nav ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration:none;
+  font-size: 24px
+  text-height:19px;
+  color:#313131;
+  font-weight: bold;
+}
+/******ABOUT******/
+#about{
+  background-color: #ff654a;
+  color: white;
+  height: 1000px;
+  text-align: center;
+}
+#about h3{
+  font-family:'Libre Baskerville', sans-serif;
+  font-size: 36px;
+  text: center;
+  padding: 130px 0 20px 0;
+}
+#about .img{
+  image-orientation: center;
+  padding: 450px  39px;
+  border-width: 5px 5px;
+  border-color: #ffffff;
+}
+#about p{
+  ont-family:'Open Sans', sans-serif;
+  font-size: 24px;
+  text: center;
+  padding: 0 300px 0 300px;
+}
+/******PORTFOLIO*******/
+#portfolio .full-width{
+  height: 800px;
+  margin: 0 auto;
+}
+#portfolio h3{
+  font-family:'Libre Baskerville', sans-serif;
+  font-size: 36px;
+  padding: 120px 100px 130px 100px;
+  text-align: center;
+  margin: 0;
+}
+#portfolio .left {
+  display: inline-block;
+  float: left;
+}
+#potfolio .middle{
+  float: left;
+  display: inline-block;
+}
+#portfolio .right{
+  float: left;
+  display:inline-block;
+}
+#portfolio img{
+  clear: left;
+  display: inline-block;
+
+}
+#portfolio p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-color: #313131;
+  text-align: center;
+}
+/*****FOOTER*****/
+#contact{
+  height:600px;
+  background-color:#ff654a;
+  color: white;
+  margin: 0 auto;
+}
+h3{
+  font-family:'Libre Baskerville', sans-serif;
+  font-size: 36px;
+  padding: 120px 100px 100px 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.contact-info{
+  display:inline-block;
+  padding: 0 50px 0 250px;
+  margin: 0 auto;
+}
+ .one{
+  display: inline-block;
+  float: left;
+  padding: 0 50px 0 50px;
+}
+.one h4, p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align:center;
+}
+ .two{
+  float: left;
+  display: inline-block;
+  padding: 0 30px 0 30px;
+}
+.two h4, p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align:center;
+}
+.two img{
+   padding: 20px;
+}
+ .three{
+  float: left;
+  display:inline-block;
+  padding: 0 20px 0 20px;
+}
+.three h4, p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align:center;
+}
+.copyright{
+  background-color:#ff654a;
+  color: white;
+  margin: 0  0;
+  clear: both;
+  padding:150px 0 15px 0;
+}
+.copyright p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align:center;
+}
